@@ -1,0 +1,60 @@
+.btn-discussion {
+  width: 150px;
+  height: 40px;
+}
+.chat-box {
+  border: 1px solid black;
+  width: 72vw;
+  height: 200px;
+  margin-top: 3%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(198, 205, 255);
+}
+
+.chat-box:hover{
+  cursor: pointer;
+  background-color: rgb(162, 171, 255);
+}
+
+.chat-leader {
+  display: flex;
+  margin-top: 10px;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-description {
+  position: absolute;
+  background-color: antiquewhite;
+  margin-left: 120px;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: -50px;
+}
+
+.flex-child-1 {
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 100px;
+  width: 60vw;
+}
+
+.flex-child-2 {
+  margin-right: 10px;
+  width: 20vw;
+}
+
+
+.flex-child:first-child {
+  margin-right: 30px;
+  margin-left: 100px;
+}
+
+li:hover{
+  font-weight: bold;
+  cursor: pointer;
+}

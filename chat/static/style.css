@@ -1,0 +1,41 @@
+.btn-discussion {
+  width: 150px;
+  height: 40px;
+}
+.chat-box {
+  border: 1px solid black;
+  width: 1300px;
+  height: 200px;
+  margin-top: 3%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.chat-leader {
+  display: flex;
+  margin-top: 10px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-description {
+  position: absolute;
+  background-color: antiquewhite;
+  margin-left: 120px;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: -50px;
+}
+
+.flex-child {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+  margin-left: 90px;
+}

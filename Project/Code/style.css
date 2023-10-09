@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("image.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(26, 135, 238);
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(15, 203, 245, 0.834);
+  }
+
+  #te{
+    margin-bottom: 5px;
+  }
+
+  .label-input{
+    margin-left: 5px;
+  }
